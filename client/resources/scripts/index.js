@@ -32,7 +32,7 @@ function handleNewClick()
     makeEditable();
     hideButtons();
     blankFields();
-    var buttonHtml = "<button class=\"btn btn-primary btn-lg\" onclick=\"handleEditSave()\">Save</button>"
+    var buttonHtml = "<button class=\"btn btn-primary btn-lg\" onclick=\"handleNewSave()\">Save</button>"
     buttonHtml += "<button class=\"btn btn-warning btn-lg btn-cancle\" onclick=\"handleCancelSave()\">Cancel</button>"
     document.getElementById("saveButton").innerHTML = buttonHtml;
     document.getElementById("saveButton").style.display = "inline-block";
